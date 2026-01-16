@@ -4,7 +4,7 @@ Console-based Battleship game written in C++.
 
 ## Team
 - eid-abdullah
-- Asi-Asi
+- Ahmad-assi
 
 ## Description
 College assignment: implementation of the Battleship game using OOP principles in C++.

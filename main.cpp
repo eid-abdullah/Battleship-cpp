@@ -14,7 +14,8 @@ int main() {
 
     // Create two players: one human, one AI
     Player* p1 = new HumanPlayer("Human");
-    Player* p2 = new AiPlayer("Computer");
+    Player* p2 = new HumanPlayer("Human2");
+    // Player* p2 = new AiPlayer("Computer");
 
     // Create the Game object with the two players
     Game game(p1, p2);

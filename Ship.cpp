@@ -12,7 +12,7 @@ Ship::~Ship() {
     delete[] name;
 }
 bool Ship::isSunk() const {
-    return hitsTaken == size;
+    return hitsTaken >= size;
 }
 
 void Ship::takeHit() {
@@ -22,6 +22,15 @@ void Ship::takeHit() {
     if (isSunk()) {
         std::cout << name << " sunk!" << std::endl;
     }
+}
+
+
+int Ship::getSize() const {
+    return size;
+}
+
+const char* Ship::getName() const {
+    return name;
 }
 
 
